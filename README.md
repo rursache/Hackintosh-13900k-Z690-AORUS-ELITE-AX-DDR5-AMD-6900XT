@@ -1,0 +1,2 @@
+# Hackintosh-13900k-Z690-AORUS-ELITE-AX-DDR5-AMD-6900XT
+OpenCore EFI for a 100% stable Intel 13900k + Z690 AORUS ELITE AX DDR5 + AMD 6900XT Hackintosh
