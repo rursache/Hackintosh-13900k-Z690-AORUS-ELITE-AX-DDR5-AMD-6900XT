@@ -6,7 +6,7 @@
 
 **Current OpenCore**: [0.8.6 MOD](https://gitee.com/btwise/OpenCore_NO_ACPI)
 
-Complete hardware specs:
+## Complete hardware specs:
 - **CPU**: Intel 13900k @ 5.8GHz
 	- **Cooling**: 
 		- Noctua NH-D15 (with Thermal Grizzly Kryonaut) 
