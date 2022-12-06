@@ -25,6 +25,8 @@
 - **Power Supply**: Seasonic Prime PX - 1000W
 - **PC Case**: NZXT H710 (important because front usb ports are mapped)
 
+Full hardware specs and prices on [PCPartPicker](https://pcpartpicker.com/user/iphonewsro/saved/zgh4sY)
+
 **SMBIOS**: iMacPro1,1
 
 The system triple boots Windows 11 and Ubuntu Mate
