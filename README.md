@@ -2,9 +2,9 @@
 
 # macOS Ventura - Hackintosh
 
-**Latest working macOS**: 13.0.1 (22A400)
+**Latest working macOS**: 13.1 (22C65)
 
-**Current OpenCore**: [0.8.6 MOD](https://gitee.com/btwise/OpenCore_NO_ACPI)
+**Current OpenCore**: [0.8.9 MOD](https://gitee.com/btwise/OpenCore_NO_ACPI)
 
 ## Hardware:
 - **CPU**: Intel 13900k @ 5.8GHz
@@ -40,7 +40,7 @@ Don't be an idiot and use these great tools instead of wasting your time with pr
 > **Warning**: Use the [modded OpenCore version](https://gitee.com/btwise/OpenCore_NO_ACPI) to prevent Windows thinking you're running in BootCamp and creating multiple issues around ACPI. Why isn't this the default OC behaviour is beyond me.
 
 ## Get it running
-1. Make sure to update your BIOS, disable CSM support, secure boot and enable XHCI Hand-off (for Airdrop/Continuity/Sidecar) and XMP
+1. Make sure to update your BIOS, disable CSM support and secure boot, enable XHCI Hand-off (for Airdrop/Continuity/Sidecar) and enable XMP.
 2. Create an macOS Ventura USB-Installer Stick, install OpenCore and copy my EFI folder ([how?](https://github.com/SchmockLord/Hackintosh-Intel-i9-10900k-Gigabyte-Z490-Vision-D#installation-notes))
 3. Generate a new serial number, motherboard id, ROM (that's your motherboard's mac address without dots) and SMUUID (make sure serial number is **invalid** in order to iMessage/Facetime to work) ([how?](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo))
 4. Boot the new macOS partition
