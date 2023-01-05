@@ -12,14 +12,16 @@
 		- Noctua NH-D15 (with Thermal Grizzly Kryonaut) 
 		- 6x Noctua Fans around the case for airflow
 - **Motherboard**: Gigabyte Z690 AORUS ELITE AX DDR5
-- **GPU**: AMD Radeon RX 6900 XT
+- **GPU**: 
+	- AMD Radeon RX 6900 XT (Main)
+	- AMD Radeon RX 550 4GB LP (PowerColor Red Dragon - To be used when I upgrade)
 - **WiFi/Bluetooth**: Fenvi T919 with wired antennas
 - **Ethernet**: Realtek RTL8125B PCI Express 2.5 Gigabit Ethernet
 - **RAM**: 64GB @ 5400 MHz DDR5
 - **NVME SSD**: 
-	- 500GB WD BLACK SN850 NVMe PCIe SSD (macOS)
+	- 500GB WD BLACK SN850 Gen.4 NVMe PCIe SSD (macOS)
 	- 500GB Samsung 980 PRO Gen.4 NVMe PCIe SSD (Windows)
-	- 500GB Kingston A2000 NVMe PCIe SSD (Linux)
+	- 500GB Kingston A2000 Gen.3 NVMe PCIe SSD (Linux)
 - **SATA SSD**: 
 	- 4TB Samsung Evo 860 SATA SSD (shared with Windows and Linux, formatted as exFAT)
 - **Power Supply**: Seasonic Prime PX - 1000W
