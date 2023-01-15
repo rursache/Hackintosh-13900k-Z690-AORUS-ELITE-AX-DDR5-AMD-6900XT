@@ -36,14 +36,6 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-HACK.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
 				<string>SSDT-HPET.aml</string>
 			</dict>
 			<dict>
@@ -61,6 +53,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-SBUS.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GPU-SPOOF-RX550.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -249,7 +249,7 @@
 			<key>RebuildAppleMemoryMap</key>
 			<true/>
 			<key>ResizeAppleGpuBars</key>
-			<integer>-1</integer>
+			<integer>8</integer>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>SignalAppleOS</key>
@@ -286,6 +286,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/Lilu</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>WhateverGreen.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/WhateverGreen</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -376,24 +394,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/NVMeFix</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -598,6 +598,8 @@
 			<integer>0</integer>
 			<key>HibernateMode</key>
 			<string>None</string>
+			<key>HibernateSkipsPicker</key>
+			<true/>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>LauncherOption</key>
@@ -998,7 +1000,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>agdpmod=pikera</string>
+				<string>agdpmod=pikera -radcodec</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1072,11 +1074,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>CHANGE-ME</string>
+			<string>REPLACEME</string>
 			<key>ProcessorType</key>
 			<integer>3841</integer>
 			<key>ROM</key>
-			<data>CHANGE-ME/</data>
+			<data>REPLACEME/</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1084,9 +1086,9 @@
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>CHANGE-ME</string>
+			<string>REPLACEME</string>
 			<key>SystemUUID</key>
-			<string>CHANGE-ME</string>
+			<string>REPLACEME</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1269,6 +1271,18 @@
 				<false/>
 				<key>Path</key>
 				<string>AudioDxe.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>UsbMouseDxe.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
