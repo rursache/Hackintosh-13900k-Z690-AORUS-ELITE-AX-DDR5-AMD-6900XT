@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/foW4AcU.jpg" height="350" title="HackintoshLogo">
+<img src="https://i.imgur.com/IfsTVAq.png" height="150" title="HackintoshLogo">
 
 # macOS Ventura - Hackintosh
 
@@ -90,7 +90,7 @@ This setup beats the Mac Studio 2022 (M1 Ultra 20-core) on Xcode compiling time:
 - OpenHfsPlus (optional)
 - AudioDxe (optional, for boot chime)
 
-![neofetch](https://i.imgur.com/SE5RKLY.png)
+![neofetch](https://i.imgur.com/Btx4WPB.png)
 
 ## Thanks/Credits
 - [Luchina Gabriel](https://github.com/luchina-gabriel)
