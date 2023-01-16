@@ -14,7 +14,7 @@
 - **Motherboard**: Gigabyte Z690 AORUS ELITE AX DDR5
 - **GPU**: 
 	- AMD Radeon RX 6900 XT (Main)
-	- AMD Radeon RX 550 4GB LP (PowerColor Red Dragon - To be used when I upgrade)
+	- AMD Radeon RX 550 4GB LP (PowerColor Red Dragon - To be used when I switch to 7900XTX or 4090)
 - **WiFi/Bluetooth**: Fenvi T919 with wired antennas
 - **Ethernet**: Realtek RTL8125B PCI Express 2.5 Gigabit Ethernet
 - **RAM**: 64GB @ 5400 MHz DDR5
