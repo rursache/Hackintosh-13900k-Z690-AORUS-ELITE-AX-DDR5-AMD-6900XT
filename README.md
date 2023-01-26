@@ -48,6 +48,8 @@ Don't be an idiot and use these great tools instead of wasting your time with pr
 4. Boot the new macOS partition
 5. Copy the EFI to the local disk
 
+> **Note**: Enable HiDPI Display settings by running `sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayResolutionEnabled -bool true` and rebooting the PC
+
 Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/tree/main/A_Config_Tips_and_Tricks)
 
 ## What works
