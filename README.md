@@ -39,7 +39,9 @@ Don't be an idiot and use these great tools instead of wasting your time with pr
   - [OpenCore Auxiliary Tools](https://github.com/ic005k/QtOpenCoreConfig) - alternative
 - [Hackintool](https://github.com/headkaze/Hackintool/releases) - debug and map USB ports
 
-> **Warning**: Use the [modded OpenCore version](https://gitee.com/btwise/OpenCore_NO_ACPI) to prevent Windows thinking you're running in BootCamp and creating multiple issues around ACPI. Why isn't this the default OC behaviour is beyond me.
+> **Warning** 
+> 
+> Use the [modded OpenCore version](https://gitee.com/btwise/OpenCore_NO_ACPI) to prevent Windows thinking you're running in BootCamp and creating multiple issues around ACPI. Why isn't this the default OC behaviour is beyond me.
 
 ## Get it running
 1. Make sure to update your BIOS, disable CSM support and secure boot, enable XHCI Hand-off (for Airdrop/Continuity/Sidecar) and enable XMP.
@@ -48,7 +50,9 @@ Don't be an idiot and use these great tools instead of wasting your time with pr
 4. Boot the new macOS partition
 5. Copy the EFI to the local disk
 
-> **Note**: Enable HiDPI Display settings by running `sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayResolutionEnabled -bool true` and rebooting the PC
+> **Note** 
+> 
+> Enable HiDPI Display settings by running `sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayResolutionEnabled -bool true` and rebooting the PC
 
 Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/tree/main/A_Config_Tips_and_Tricks) and the full [OpenCore Documentation](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
 
@@ -68,7 +72,9 @@ Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/t
 ## What doesn't work
 - Returning from sleep won't wake up the display. You need to re-plug the DP or HDMI cable. This is probably because of the RX550 hack.
 
-> **Note**: The RX550 hack can be disabled by removing the `-radcodec` boot arg and disabling the `550.aml` ACPI patch.
+> **Note** 
+> 
+> The RX550 hack can be disabled by removing the `-radcodec` boot arg and disabling the `550.aml` ACPI patch.
 
 ## Port mapping
 I mapped both USB 3.0 ports and USB-C port of the case (front), all USB 2.0 ports, another 3 USB 3.0 ports (first ones coming down) + USB-C port on motherboard. Create your own mapping on Windows using [USBToolBox](https://github.com/USBToolBox/tool)
