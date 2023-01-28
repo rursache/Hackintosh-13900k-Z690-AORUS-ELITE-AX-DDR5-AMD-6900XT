@@ -80,7 +80,7 @@ Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/t
 I mapped both USB 3.0 ports and USB-C port of the case (front), all USB 2.0 ports, another 3 USB 3.0 ports (first ones coming down) + USB-C port on motherboard. Create your own mapping on Windows using [USBToolBox](https://github.com/USBToolBox/tool)
 
 ## Xcode Benchmark
-This setup beats the Mac Studio 2022 (M1 Ultra 20-core) on Xcode compiling time: https://github.com/devMEremenko/XcodeBenchmark/pull/369
+This setup beats the Mac Studio 2022 (M1 Ultra 20-core) and the Mac Mini 2023 (M2 Pro) on [Xcode compiling time](https://github.com/devMEremenko/XcodeBenchmark/pull/369). This hackintosh is the best developer machine possible, even beating M2 Pro Macs.
 
 ## Kexts
 - Lilu
