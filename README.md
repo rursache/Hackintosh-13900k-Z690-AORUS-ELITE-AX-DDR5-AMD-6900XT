@@ -43,20 +43,21 @@ Don't be an idiot and use these great tools instead of wasting your time with pr
 
 ## Get it running
 1. Make sure to update your BIOS, disable CSM support and secure boot, enable XHCI Hand-off (for Airdrop/Continuity/Sidecar) and enable XMP.
-2. Create an macOS Ventura USB-Installer Stick, install OpenCore and copy my EFI folder ([how?](https://github.com/SchmockLord/Hackintosh-Intel-i9-10900k-Gigabyte-Z490-Vision-D#installation-notes))
+2. Create an macOS Ventura USB-Installer Stick, install OpenCore and copy my EFI folder ([how?](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/))
 3. Generate a new serial number, motherboard id, ROM (that's your motherboard's mac address without dots) and SMUUID (make sure serial number is **invalid** in order to iMessage/Facetime to work) ([how?](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo))
 4. Boot the new macOS partition
 5. Copy the EFI to the local disk
 
 > **Note**: Enable HiDPI Display settings by running `sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayResolutionEnabled -bool true` and rebooting the PC
 
-Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/tree/main/A_Config_Tips_and_Tricks)
+Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/tree/main/A_Config_Tips_and_Tricks) and the full [OpenCore Documentation](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html).
 
 ## What works
 - macOS Ventura
 - WiFi and Bluetooth + Airdrop + Sidecar + Continuity (OOB via Fenvi T919)
 - Audio
 - HDMI/DP (with VRR)
+  - Note that the RX550 can only output to HDMI
 - Most USB ports (Capped at macOS limit of 15)
 - Everything iCloud related (Drive, iMessage, Facetime, unlock with Apple Watch, etc)
 - Intel Quick Sync (if you enable iGPU in BIOS)
@@ -66,6 +67,8 @@ Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/t
 
 ## What doesn't work
 - Returning from sleep won't wake up the display. You need to re-plug the DP or HDMI cable. This is probably because of the RX550 hack.
+
+> **Note**: The RX550 hack can be disabled by removing the `-radcodec` boot arg and disabling the `550.aml` ACPI patch.
 
 ## Port mapping
 I mapped both USB 3.0 ports and USB-C port of the case (front), all USB 2.0 ports, another 3 USB 3.0 ports (first ones coming down) + USB-C port on motherboard. Create your own mapping on Windows using [USBToolBox](https://github.com/USBToolBox/tool)
