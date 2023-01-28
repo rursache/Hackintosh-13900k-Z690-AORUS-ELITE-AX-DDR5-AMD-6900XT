@@ -2,7 +2,7 @@
 
 # macOS Ventura - Hackintosh
 
-**Latest working macOS**: 13.1 (22C65)
+**Latest working macOS**: 13.2 (22D49)
 
 **Current OpenCore**: [0.8.9 MOD](https://gitee.com/btwise/OpenCore_NO_ACPI)
 
@@ -23,7 +23,7 @@
 	- 500GB Samsung 980 PRO Gen.4 NVMe PCIe SSD (Windows)
 	- 500GB Kingston A2000 Gen.3 NVMe PCIe SSD (Linux)
 - **SATA SSD**: 
-	- 4TB Samsung Evo 860 SATA SSD (shared with Windows and Linux, formatted as exFAT)
+	- 4TB Samsung Evo 860 SATA SSD (shared with macOS, Windows and Linux - formatted as exFAT)
 - **Power Supply**: Seasonic Prime PX - 1000W
 - **PC Case**: NZXT H710 (important because front usb ports are mapped)
 
@@ -50,7 +50,7 @@ Don't be an idiot and use these great tools instead of wasting your time with pr
 
 > **Note**: Enable HiDPI Display settings by running `sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayResolutionEnabled -bool true` and rebooting the PC
 
-Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/tree/main/A_Config_Tips_and_Tricks) and the full [OpenCore Documentation](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html).
+Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/tree/main/A_Config_Tips_and_Tricks) and the full [OpenCore Documentation](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
 
 ## What works
 - macOS Ventura
