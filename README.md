@@ -2,9 +2,9 @@
 
 # macOS Ventura - Hackintosh
 
-**Latest working macOS**: 13.2 (22D49)
+**Latest working macOS**: 13.2.1 (22D68)
 
-**Current OpenCore**: [0.8.9 MOD](https://gitee.com/btwise/OpenCore_NO_ACPI)
+**Current OpenCore**: [0.9.0 MOD](https://gitee.com/btwise/OpenCore_NO_ACPI)
 
 ## Hardware:
 - **CPU**: Intel 13900k @ 5.8GHz
