@@ -4,7 +4,7 @@
 
 **Latest working macOS**: 13.2.1 (22D68)
 
-**Current OpenCore**: [0.9.0 MOD](https://gitee.com/btwise/OpenCore_NO_ACPI) ([binaries](https://github.com/wjz304/OpenCore_NO_ACPI_Build))
+**Current OpenCore**: [0.9.0 MOD](https://gitee.com/btwise/OpenCore_NO_ACPI) ([binaries](https://github.com/wjz304/OpenCore_NO_ACPI_Build/releases))
 
 ## Hardware:
 - **CPU**: Intel 13900k @ 5.8GHz
