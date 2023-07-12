@@ -60,13 +60,13 @@ Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/t
 - WiFi and Bluetooth + Airdrop + Sidecar + Continuity (OOB via Fenvi T919)
 - Audio
 - HDMI/DP (with VRR)
-  - Note that the RX550 can only output to HDMI
+  - Note that the RX550 can only output video to HDMI (haven't tested DVI/VGA)
 - Most USB ports (Capped at macOS limit of 15)
-- Everything iCloud related (Drive, iMessage, Facetime, unlock with Apple Watch, etc)
+- Everything iCloud related (Drive, iMessage, FaceTime, unlock with Apple Watch, etc)
 - Intel Quick Sync (if you enable iGPU in BIOS)
 - Temperature monitoring
 - Resizable Bar Support (enable Above 4G Decoding in BIOS)
-- Shutdown/Reboot/Update to newer macOS builds over time
+- Update to newer macOS builds over time
 
 ## What doesn't work
 - Returning from sleep won't wake up the display. You need to re-plug the DP or HDMI cable. This is probably because of the RX550 hack.
