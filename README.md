@@ -21,9 +21,8 @@
 - **NVME SSD**: 
 	- 500GB WD BLACK SN850 Gen.4 NVMe PCIe SSD (macOS)
 	- 500GB Samsung 980 PRO Gen.4 NVMe PCIe SSD (Windows)
-	- 500GB Kingston A2000 Gen.3 NVMe PCIe SSD (Linux)
 - **SATA SSD**: 
-	- 4TB Samsung Evo 860 SATA SSD (shared with macOS, Windows and Linux - formatted as exFAT)
+	- 4TB Kingston FURY Renegade Gen.4 NVMe PCIe SSD (shared with macOS and Windows - formatted as exFAT)
 - **Power Supply**: Seasonic Prime PX - 1000W
 - **PC Case**: NZXT H710 (important because front usb ports are mapped)
 
@@ -31,7 +30,7 @@ Full hardware specs and prices on [PCPartPicker](https://pcpartpicker.com/user/i
 
 **SMBIOS**: iMacPro1,1
 
-The system triple boots Windows 11 and Ubuntu Mate
+The system dual boots macOS and Windows 11
 
 ## Tools
 Don't be an idiot and use these great tools instead of wasting your time with propertree or other plist editors:
