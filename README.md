@@ -2,9 +2,9 @@
 
 # macOS Ventura - Hackintosh
 
-**Latest working macOS**: 13.4.1 (22F82)
+**Latest working macOS**: 13.5 (22G74)
 
-**Current OpenCore**: [0.9.4 MOD](https://gitee.com/btwise/OpenCore_NO_ACPI) ([binaries](https://github.com/wjz304/OpenCore_NO_ACPI_Build/releases))
+**Current OpenCore**: [0.9.5 MOD](https://gitee.com/btwise/OpenCore_NO_ACPI) ([binaries](https://github.com/wjz304/OpenCore_NO_ACPI_Build/releases))
 
 ## Hardware:
 - **CPU**: Intel 13900k @ 5.8GHz
@@ -12,9 +12,7 @@
 		- Noctua NH-D15 (with Thermal Grizzly Kryonaut) 
 		- 6x Noctua Fans around the case for airflow
 - **Motherboard**: Gigabyte Z690 AORUS ELITE AX DDR5
-- **GPU**: 
-	- AMD Radeon RX 6900 XT (Main)
-	- AMD Radeon RX 550 4GB LP (PowerColor Red Dragon - To be used when I switch to 7900XTX or 4090)
+- **GPU**: AMD Radeon RX 6900 XT
 - **WiFi/Bluetooth**: Fenvi T919 (BCM94360[CD]) with wired antennas
 - **Ethernet**: Realtek RTL8125B PCI Express 2.5 Gigabit Ethernet
 - **RAM**: 64GB @ 5400 MHz DDR5
@@ -60,7 +58,6 @@ Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/t
 - WiFi and Bluetooth + Airdrop + Sidecar + Continuity (OOB via Fenvi T919)
 - Audio
 - HDMI/DP (with VRR)
-  - Note that the RX550 can only output video to HDMI (haven't tested DVI/VGA)
 - Most USB ports (Capped at macOS limit of 15)
 - Everything iCloud related (Drive, iMessage, FaceTime, unlock with Apple Watch, etc)
 - Intel Quick Sync (if you enable iGPU in BIOS)
@@ -69,11 +66,7 @@ Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/t
 - Update to newer macOS builds over time
 
 ## What doesn't work
-- Returning from sleep won't wake up the display. You need to re-plug the DP or HDMI cable. This is probably because of the RX550 hack.
-
-> **Note** 
-> 
-> The RX550 hack can be disabled by removing the `-radcodec` boot arg and disabling the `550.aml` ACPI patch.
+- ???
 
 ## Port mapping
 I mapped both USB 3.0 ports and USB-C port of the case (front), all USB 2.0 ports, another 3 USB 3.0 ports (first ones coming down) + USB-C port on motherboard. Create your own mapping on Windows using [USBToolBox](https://github.com/USBToolBox/tool)
@@ -100,7 +93,7 @@ This setup beats the Mac Studio 2022 (M1 Ultra 20-core) and the Mac Mini 2023 (M
 - OpenHfsPlus (optional)
 - AudioDxe (optional, for boot chime)
 
-![neofetch](https://i.imgur.com/Btx4WPB.png)
+![neofetch](https://i.imgur.com/3R9ap67.png)
 
 ## Thanks/Credits
 - [Luchina Gabriel](https://github.com/luchina-gabriel)
