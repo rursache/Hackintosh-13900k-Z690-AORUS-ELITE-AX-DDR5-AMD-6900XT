@@ -15,7 +15,7 @@
 - **GPU**: AMD Radeon RX 6900 XT
 - **WiFi/Bluetooth**: Fenvi T919 (BCM94360[CD]) with wired antennas
 - **Ethernet**: Realtek RTL8125B PCI Express 2.5 Gigabit Ethernet
-- **RAM**: 64GB @ 5400 MHz DDR5
+- **RAM**: 64GB @ 5200 MHz DDR5
 - **NVME SSD**: 
 	- 500GB WD BLACK SN850 Gen.4 NVMe PCIe SSD (macOS)
 	- 500GB Samsung 980 PRO Gen.4 NVMe PCIe SSD (Windows)
