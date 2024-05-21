@@ -1,6 +1,6 @@
-<img src="https://i.imgur.com/IfsTVAq.png" height="150" title="HackintoshLogo">
+<img src="https://i.imgur.com/vd6gEda.png" height="150" title="HackintoshLogo">
 
-# macOS Ventura - Hackintosh
+# macOS Sonoma - Hackintosh
 
 **Latest working macOS**: 14.4.1 (23E224)
 
