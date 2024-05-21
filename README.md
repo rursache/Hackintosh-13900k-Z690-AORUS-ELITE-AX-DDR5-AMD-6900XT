@@ -36,8 +36,7 @@ Don't be an idiot and use these great tools instead of wasting your time with pr
   - [OpenCore Auxiliary Tools](https://github.com/ic005k/QtOpenCoreConfig) - alternative
 - [Hackintool](https://github.com/headkaze/Hackintool/releases) - debug and map USB ports
 
-> **Warning** 
-> 
+> [!WARNING] 
 > Use the [modded OpenCore version](https://gitee.com/btwise/OpenCore_NO_ACPI) to prevent Windows thinking you're running in BootCamp and creating multiple issues around ACPI. Why isn't this the default OC behaviour is beyond me.
 
 ## Get it running
@@ -47,15 +46,14 @@ Don't be an idiot and use these great tools instead of wasting your time with pr
 4. Boot the new macOS partition
 5. Copy the EFI to the local disk
 
-> **Note** 
-> 
+> [!NOTE]
 > Enable HiDPI Display settings by running `sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayResolutionEnabled -bool true` and rebooting the PC
 
 Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/tree/main/A_Config_Tips_and_Tricks) and the full [OpenCore Documentation](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
 
 ## What works
 - macOS Sonoma
-- WiFi* and Bluetooth + Airdrop + Sidecar + Continuity (OOB via Fenvi T919)
+- WiFi and Bluetooth + Airdrop + Sidecar + Continuity (OOB via Fenvi T919)
 - Audio
 - HDMI/DP (with VRR)
 - Most USB ports (Capped at macOS limit of 15)
@@ -65,7 +63,8 @@ Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/t
 - Resizable Bar Support (enable Above 4G Decoding in BIOS)
 - Update to newer macOS builds over time
 
-* To get WiFi working, you need to either follow this guide or use my EFI without modifications
+> [!NOTE]
+> To get WiFi working, you need to either follow [this guide](https://github.com/billabongbruno/macOS-Sonoma-Broadcom-Wifi) or use my EFI without modifications
 
 ## What doesn't work
 - Automatic macOS updates
