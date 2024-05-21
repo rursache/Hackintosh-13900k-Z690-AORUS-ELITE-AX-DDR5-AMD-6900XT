@@ -2,15 +2,15 @@
 
 # macOS Ventura - Hackintosh
 
-**Latest working macOS**: 13.6 (22G120)
+**Latest working macOS**: 14.4.1 (23E224)
 
-**Current OpenCore**: [0.9.6 MOD](https://gitee.com/btwise/OpenCore_NO_ACPI) ([binaries](https://github.com/wjz304/OpenCore_NO_ACPI_Build/releases))
+**Current OpenCore**: [1.0.1 MOD](https://gitee.com/btwise/OpenCore_NO_ACPI) ([binaries](https://github.com/wjz304/OpenCore_NO_ACPI_Build/releases))
 
 ## Hardware:
 - **CPU**: Intel 13900k @ 5.8GHz
 	- **Cooling**: 
 		- Noctua NH-D15 (with Thermal Grizzly Kryonaut) 
-		- 6x Noctua Fans around the case for airflow
+		- 9x Noctua Fans around the case for airflow
 - **Motherboard**: Gigabyte Z690 AORUS ELITE AX DDR5
 - **GPU**: AMD Radeon RX 6900 XT
 - **WiFi/Bluetooth**: Fenvi T919 (BCM94360[CD]) with wired antennas
@@ -54,8 +54,8 @@ Don't be an idiot and use these great tools instead of wasting your time with pr
 Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/tree/main/A_Config_Tips_and_Tricks) and the full [OpenCore Documentation](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
 
 ## What works
-- macOS Ventura
-- WiFi and Bluetooth + Airdrop + Sidecar + Continuity (OOB via Fenvi T919)
+- macOS Sonoma
+- WiFi* and Bluetooth + Airdrop + Sidecar + Continuity (OOB via Fenvi T919)
 - Audio
 - HDMI/DP (with VRR)
 - Most USB ports (Capped at macOS limit of 15)
@@ -65,8 +65,10 @@ Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/t
 - Resizable Bar Support (enable Above 4G Decoding in BIOS)
 - Update to newer macOS builds over time
 
+* To get WiFi working, you need to either follow this guide or use my EFI without modifications
+
 ## What doesn't work
-- ???
+- Automatic macOS updates
 
 ## Port mapping
 I mapped both USB 3.0 ports and USB-C port of the case (front), all USB 2.0 ports, another 3 USB 3.0 ports (first ones coming down) + USB-C port on motherboard. Create your own mapping on Windows using [USBToolBox](https://github.com/USBToolBox/tool)
@@ -85,6 +87,7 @@ This setup beats the Mac Studio 2022 (M1 Ultra 20-core) and the Mac Mini 2023 (M
 - USBPorts (USBToolBox + USBMap)
 - NVMeFix
 - LucyRTL8125Ethernet
+- IOSkywalkFamily + IO80211FamilyLegacy (WiFi fixes)
 
 ## Drivers
 - OpenCanopy
@@ -93,7 +96,7 @@ This setup beats the Mac Studio 2022 (M1 Ultra 20-core) and the Mac Mini 2023 (M
 - OpenHfsPlus (optional)
 - AudioDxe (optional, for boot chime)
 
-![neofetch](https://i.imgur.com/3R9ap67.png)
+![neofetch](https://i.imgur.com/YnzZjmY.png)
 
 ## Thanks/Credits
 - [Luchina Gabriel](https://github.com/luchina-gabriel)
