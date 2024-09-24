@@ -1,10 +1,10 @@
-<img src="https://i.imgur.com/vd6gEda.png" height="150" title="HackintoshLogo">
+<img src="https://i.imgur.com/ihiOW0G.png" height="150" title="HackintoshLogo">
 
-# macOS Sonoma - Hackintosh
+# macOS Sequoia - Hackintosh
 
-**Latest working macOS**: 14.4.1 (23E224)
+**Latest working macOS**: 15.0.0 (24A335)
 
-**Current OpenCore**: [1.0.1 MOD](https://gitee.com/btwise/OpenCore_NO_ACPI) ([binaries](https://github.com/wjz304/OpenCore_NO_ACPI_Build/releases))
+**Current OpenCore**: [1.0.2 MOD](https://gitee.com/btwise/OpenCore_NO_ACPI) ([binaries](https://github.com/wjz304/OpenCore_NO_ACPI_Build/releases))
 
 ## Hardware:
 - **CPU**: Intel 13900k @ 5.8GHz
@@ -52,7 +52,7 @@ Don't be an idiot and use these great tools instead of wasting your time with pr
 Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/tree/main/A_Config_Tips_and_Tricks) and the full [OpenCore Documentation](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
 
 ## What works
-- macOS Sonoma
+- macOS Sequoia (Sonoma, Ventura and Monterey were previously supported but not tested with the latest release)
 - WiFi and Bluetooth + Airdrop + Sidecar + Continuity (OOB via Fenvi T919)
 - Audio
 - HDMI/DP (with VRR)
@@ -73,7 +73,7 @@ Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/t
 I mapped both USB 3.0 ports and USB-C port of the case (front), all USB 2.0 ports, another 3 USB 3.0 ports (first ones coming down) + USB-C port on motherboard. Create your own mapping on Windows using [USBToolBox](https://github.com/USBToolBox/tool)
 
 ## Xcode Benchmark
-This setup beats the Mac Studio 2022 (M1 Ultra 20-core) and the Mac Mini 2023 (M2 Pro) on [Xcode compiling time](https://github.com/devMEremenko/XcodeBenchmark/pull/369). ~~This hackintosh is the best developer machine possible, even beating M2 Pro Macs~~. The new Mac Studio 2023 beats this hackintosh and takes the crown.
+This setup wins over the Mac Studio 2022 (M1 Ultra 20-core) and the Mac Mini 2023 (M2 Pro) on [Xcode compiling time](https://github.com/devMEremenko/XcodeBenchmark/pull/369). ~~This hackintosh is the best developer machine possible, even beating M2 Pro Macs~~. The Mac Studio 2023 beats this hackintosh and takes the crown.
 
 ## Kexts
 - Lilu
