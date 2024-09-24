@@ -53,7 +53,7 @@ Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/t
 
 ## What works
 - macOS [Sequoia](https://github.com/rursache/Hackintosh-13900k-Z690-AORUS-ELITE-AX-DDR5-AMD-6900XT/releases) (also [Sonoma](https://github.com/rursache/Hackintosh-13900k-Z690-AORUS-ELITE-AX-DDR5-AMD-6900XT/releases/tag/v1.2), [Ventura](https://github.com/rursache/Hackintosh-13900k-Z690-AORUS-ELITE-AX-DDR5-AMD-6900XT/releases/tag/v1.1) and [Monterey](https://github.com/rursache/Hackintosh-13900k-Z690-AORUS-ELITE-AX-DDR5-AMD-6900XT/releases/tag/v1.0))
-- WiFi and Bluetooth + Airdrop + Sidecar + Continuity (OOB via Fenvi T919)
+- WiFi and Bluetooth + Airdrop + Sidecar + Continuity (OOB via Fenvi T919 < Sonoma; see note)
 - Audio
 - HDMI/DP (with VRR)
 - Most USB ports (Capped at macOS limit of 15)
@@ -64,7 +64,7 @@ Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/t
 - Update to newer macOS builds over time
 
 > [!NOTE]
-> To get WiFi working, you need to either follow [this guide](https://github.com/billabongbruno/macOS-Sonoma-Broadcom-Wifi) or use my EFI without modifications
+> To get WiFi working on Sonoma and newer you need to run [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)'s Network Patches
 
 ## What doesn't work
 - Automatic macOS updates
