@@ -52,7 +52,7 @@ Don't be an idiot and use these great tools instead of wasting your time with pr
 Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/tree/main/A_Config_Tips_and_Tricks) and the full [OpenCore Documentation](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
 
 ## What works
-- macOS Sequoia (Sonoma, Ventura and Monterey were previously supported but not tested with the latest release)
+- macOS [Sequoia](https://github.com/rursache/Hackintosh-13900k-Z690-AORUS-ELITE-AX-DDR5-AMD-6900XT/releases) (also [Sonoma](https://github.com/rursache/Hackintosh-13900k-Z690-AORUS-ELITE-AX-DDR5-AMD-6900XT/releases/tag/v1.2), [Ventura](https://github.com/rursache/Hackintosh-13900k-Z690-AORUS-ELITE-AX-DDR5-AMD-6900XT/releases/tag/v1.1) and [Monterey](https://github.com/rursache/Hackintosh-13900k-Z690-AORUS-ELITE-AX-DDR5-AMD-6900XT/releases/tag/v1.0))
 - WiFi and Bluetooth + Airdrop + Sidecar + Continuity (OOB via Fenvi T919)
 - Audio
 - HDMI/DP (with VRR)
