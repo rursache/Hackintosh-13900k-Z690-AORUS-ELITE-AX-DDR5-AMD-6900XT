@@ -67,7 +67,8 @@ Here are some [tips and tricks](https://github.com/5T33Z0/OC-Little-Translated/t
 > To get WiFi working on Sonoma and newer you need to run [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)'s Network Patches
 
 ## What doesn't work
-- Automatic macOS updates
+- Features that require a T2 chip like iPhone Mirroring, Apple Pay, Touch ID, etc
+- Automatic macOS updates (on purpose, prevents you from breaking the setup)
 
 ## Port mapping
 I mapped both USB 3.0 ports and USB-C port of the case (front), all USB 2.0 ports, another 3 USB 3.0 ports (first ones coming down) + USB-C port on motherboard. Create your own mapping on Windows using [USBToolBox](https://github.com/USBToolBox/tool)
