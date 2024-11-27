@@ -1,8 +1,15 @@
+> [!WARNING]
+> This repo is archived due to the fact that migrated over to a Mac Mini M4 Pro and the hackintosh became a Windows Gaming machine
+> 
+> The details below are valid and working as of 20 November 2024 but everything should work for the entire lifetime of macOS Sequoia
+
+----
+
 <img src="https://i.imgur.com/ihiOW0G.png" height="150" title="HackintoshLogo">
 
 # macOS Sequoia - Hackintosh
 
-**Latest working macOS**: 15.0.0 (24A335)
+**Latest working macOS**: 15.1.1 (24B2091)
 
 **Current OpenCore**: [1.0.2 MOD](https://gitee.com/btwise/OpenCore_NO_ACPI) ([binaries](https://github.com/wjz304/OpenCore_NO_ACPI_Build/releases))
 
